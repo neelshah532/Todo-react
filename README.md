@@ -106,21 +106,25 @@ src/
 1. Click the **checkbox** next to the task.
 
 ## Screenshots
-![alt text](image.png)
 
-![alt text](image-1.png)
+![alt text](public/screenshot/image-1.png)
 
-![alt text](image-2.png)
+![alt text](public/screenshot/image-2.png)
 
-![alt text](image-3.png)
+![alt text](public/screenshot/image-3.png)
+
+![alt text](public/screenshot/image.png)
 
 ### Task Management Page
+
 ![Task Management Screenshot](https://via.placeholder.com/800x400?text=Task+Management+Page)
 
 ### Adding a New Task
+
 ![Add Task Screenshot](https://via.placeholder.com/800x400?text=Add+Task+Page)
 
 ### Editing a Task
+
 ![Edit Task Screenshot](https://via.placeholder.com/800x400?text=Edit+Task+Page)
 
 ## Live Demo
@@ -142,4 +146,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Thank you for checking out **Modern Task Manager App**! We hope it helps you stay organized and productive.
-
