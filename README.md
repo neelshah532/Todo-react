@@ -115,18 +115,6 @@ src/
 
 ![alt text](public/screenshot/image.png)
 
-### Task Management Page
-
-![Task Management Screenshot](https://via.placeholder.com/800x400?text=Task+Management+Page)
-
-### Adding a New Task
-
-![Add Task Screenshot](https://via.placeholder.com/800x400?text=Add+Task+Page)
-
-### Editing a Task
-
-![Edit Task Screenshot](https://via.placeholder.com/800x400?text=Edit+Task+Page)
-
 ## Live Demo
 
 [**View Live Demo**](https://todo-react-nine-iota.vercel.app/)
