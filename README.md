@@ -1,50 +1,136 @@
-# React + TypeScript + Vite
+# Modern Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and intuitive task management application built with **React**, **TypeScript**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- Categorize tasks
+- Set priority levels
+- Persistent storage using `localStorage`
+- Real-time progress tracking
+- Responsive design
+- Modern UI with smooth animations
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React.js 18+**
+- **TypeScript 5+**
+- **Tailwind CSS 3+**
+- **Vite (Build tool)**
 
-- Configure the top-level `parserOptions` property like this:
+## Prerequisites
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Node.js 16+**
+- **npm** or **yarn**
+
+## Project Setup
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Install dependencies:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+### Start the development server:
+
+```bash
+npm run dev
+```
+
+### Build for production:
+
+```bash
+npm run build
+```
+
+### Preview production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.tsx       # Displays app title and progress circle
+│   ├── Layout.tsx       # Main layout wrapper with background styling
+│   ├── TaskInput.tsx    # Form for adding new tasks
+│   ├── TaskItem.tsx     # Individual task component with edit/delete functionality
+│   └── TaskList.tsx     # Manages the list of tasks and their organization
+├── types/
+│   └── todo.ts          # Type definitions for tasks
+├── App.tsx              # Main application component
+└── main.tsx             # Entry point for the React app
+```
+
+## Available Scripts
+
+- **`npm run dev`**: Start development server
+- **`npm run build`**: Build for production
+- **`npm run preview`**: Preview production build locally
+- **`npm run lint`**: Run ESLint
+
+## How to Use
+
+### Add a New Task:
+
+1. Click the `+` button or input field.
+2. Enter task details.
+3. Select category and priority.
+4. Click **"Add Task"**.
+
+### Edit a Task:
+
+1. Click the **edit** icon on any task.
+2. Modify the details.
+3. Click **"Save Changes"**.
+
+### Delete a Task:
+
+1. Click the **delete** icon.
+2. Confirm deletion in the popup.
+
+### Complete a Task:
+
+1. Click the **checkbox** next to the task.
+
+## Screenshots
+
+![alt text](public/screenshot/image-1.png)
+
+![alt text](public/screenshot/image-2.png)
+
+![alt text](public/screenshot/image-3.png)
+
+![alt text](public/screenshot/image.png)
+
+## Live Demo
+
+[**View Live Demo**](https://todo-react-nine-iota.vercel.app/)
+[**ALTETR View Live Demo**](https://todo-react-bbxu.onrender.com/)
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for checking out **Modern Task Manager App**! We hope it helps you stay organized and productive.
